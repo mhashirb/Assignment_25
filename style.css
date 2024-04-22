@@ -1,0 +1,92 @@
+*{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+#main{
+    padding: 2px;
+    width: 150px;
+    border-radius: 15px;
+    margin: 0 auto;
+    margin-top: 0 auto;
+    box-shadow: 0px 0px 15px gray;
+}
+.heading{
+    font-size: larger;
+    width: 250px;
+    margin: 0 auto;
+    color: blue;
+}
+.result{
+    width: 80%;
+    background-color: rgb(16, 16, 224);
+    color: white;
+    border-radius: 15px;
+    margin: 10px;
+    padding: 3px;
+    border: none;
+}
+.clearbtn{
+    width: 50%;
+    margin-top: 10px;
+    /* padding: 2px;  */
+    background-color: black;
+    color: white;
+    border-radius: 20px;
+    border: none;
+}
+.submain{
+    margin: 0 auto;
+    padding: 11px;
+}
+.button1{
+    border: none;
+    border-radius: 13px;
+    width: 20%;
+    margin: 1px;
+    padding: 5px;
+    color: rgba(17, 17, 17, 0.781);
+    background-color: rgb(187, 181, 181);
+}
+.button2{
+    border: none;
+    border-radius: 13px;
+    width: 20%;
+    margin: 1px;
+    padding: 5px;
+    color: rgba(17, 17, 17, 0.781);
+}
+.button3{
+    border: none;
+    border-radius: 13px;
+    width: 20%;
+    margin: 1px;
+    padding: 5px;
+    color: white;
+    background-color: red;
+}
+.button4{
+    border: none;
+    border-radius: 13px;
+    width: 20%;
+    margin: 1px;
+    padding: 5px;
+    color: white;
+    background-color: blue;
+}
+.button5{
+    border: none;
+    border-radius: 13px;
+    width: 20%;
+    margin: 1px;
+    padding: 5px;
+    color: white;
+    background-color: rgba(255, 255, 0, 0.836);
+}
+.button6{
+    border: none;
+    border-radius: 13px;
+    width: 20%;
+    margin: 1px;
+    padding: 5px;
+    color: white;
+    background-color: rgb(24, 224, 24);
+}

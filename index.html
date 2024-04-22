@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+    <div class="heading">
+        <h1 >CALCULATOR</h1>
+    </div>
+    <div id="main">
+        <div>
+            <input  id="result" class="result" type="text">
+        </div>
+        <div class="submain">
+        <div>
+            <button onclick="getNumber('%')" class="button2">%</button>
+            <button onclick="getNumber('')" class="button2"><i class="fa-solid fa-square-root-variable"></i></button>
+            <button onclick="clearResult()" id="result" class="clearbtn"><b>C</b></button>
+        </div>
+        <div>
+            <button onclick="getNumber('7')" class="button1"><b>7</b></button>
+            <button onclick="getNumber('8')" class="button1"><b>8</b></button>
+            <button onclick="getNumber('9')" class="button1"><b>9</b></button>
+            <button onclick="getNumber('-')" class="button3">-</button>
+        </div>
+        <div>
+            <button onclick="getNumber('4')" class="button1"><b>4</b></button>
+            <button onclick="getNumber('5')" class="button1"><b>5</b></button>
+            <button onclick="getNumber('6')" class="button1"><b>6</b></button>
+            <button onclick="getNumber('/')" class="button4"><i class="fa-solid fa-divide"></i></button>
+        </div>
+        <div>
+            <button onclick="getNumber('1')" class="button1"><b>1</b></button>
+            <button onclick="getNumber('2')" class="button1"><b>2</b></button>
+            <button onclick="getNumber('3')" class="button1"><b>3</b></button>
+            <button onclick="getNumber('*')" class="button5">x</button>
+        </div>
+        <div>
+            <button onclick="getNumber('.')" class="button1">.</button>
+            <button onclick="getNumber('0')" class="button1"><b>0</b></button>
+            <button onclick="getResult()" class="button2">=</button>
+            <button onclick="getNumber('+')" class="button6">+</button>
+        </div>
+        </div>
+    </div>
+    <script src="app.js"></script>
+</body>
+</html>
